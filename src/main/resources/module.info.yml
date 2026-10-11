@@ -1,0 +1,22 @@
+id: placeholderapi
+name: PlaceholderAPI
+version: 1.0.0
+main: org.wannes.modules.placeholderapi.PlaceholderAPIModule
+api-version: 1
+exports:
+  - me.clip.placeholderapi
+description: "PlaceholderAPI expansion registry, parsing API and official eCloud installation."
+
+# Website/Web UI configuratie (optioneel)
+website:
+  enabled: true                     # Set to true als je een web interface wilt
+  entry: web/index.html             # Entrypoint van je web interface
+  title: "PlaceholderAPI eCloud"   # Titel in de web UI
+
+# Dependencies (optioneel) - andere modules waarvan deze module afhangt
+# dependencies:
+#   - module-id-1
+#   - module-id-2
+
+# Configuratie categorie (optioneel)
+# category: utilities               # Of: gameplay, admin-tools, data-storage, etc

@@ -1,0 +1,11 @@
+# Official eCloud supplies executable expansion JARs. Existing configuration is retained.
+cloud_enabled: true
+cloud_sorting: name
+check_updates: false
+debug: false
+use_adventure_provided_replacer: false
+date_format: MM/dd/yy HH:mm:ss
+boolean:
+  'true': 'yes'
+  'false': 'no'
+expansions: {}

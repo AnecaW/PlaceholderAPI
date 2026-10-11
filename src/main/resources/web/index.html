@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<link rel="stylesheet" href="/web/design-system.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlaceholderAPI eCloud</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="referrer" content="no-referrer">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>PlaceholderAPI — eCloud Browser</h1>
+            <p>Kies Download &amp; Install. De server downloadt, controleert en installeert de expansion automatisch.</p>
+        </header>
+
+        <section class="controls">
+            <input aria-label="Search expansions" id="search" placeholder="Zoek expansions (naam of auteur)" />
+            <select id="filter" aria-label="Expansion status">
+                <option value="all">Alle</option>
+                <option value="installed">Geïnstalleerd</option>
+                <option value="updates">Updates Beschikbaar</option>
+            </select>
+            <button id="refresh">Ververs</button>
+        </section>
+
+        <section id="list" class="list">
+            <div class="loading">Laden…</div>
+        </section>
+
+        <footer>
+            <small>De installatie meldt ontbrekende dependencies of niet-ondersteunde bestanden. Een beschikbare update krijgt een eigen Update-knop.</small>
+        </footer>
+    </div>
+
+    <script src="ecloud.js"></script>
+</body>
+</html>
